@@ -1,5 +1,5 @@
 # BankfullMapper
-Semi-automatic toolkit for bankfull geometry extraction and discharge estimation
+Semi-automatic toolkit for bankfull geometry extraction and discharge estimation.
 
 This toolkit includes Matlab functions to analyze the river bankfull geometry and derive discharge estimate applying Manning's equation. 
 
