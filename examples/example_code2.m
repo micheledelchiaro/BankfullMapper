@@ -1,25 +1,9 @@
+%% EXAMPLE2: MARECCHIA RIVER CASE STUDY (EMILIA ROMAGNA, ITALY)
+
+%% WORKING DIRECTORY
+WD='path\to\downloaded\data\';
+
 %% LOAD DATA
-
-% DEM=GRIDobj('dem_final_2008.tif');
-% DEM.Z(DEM.Z==0)=NaN;
-% DEM2=GRIDobj('dem_final_2022.tif');
-% DEM2.Z(DEM2.Z==0)=NaN;
-% REM=GRIDobj('rem_final_2008.tif');
-% REM.Z(REM.Z==0)=NaN;
-% REM2=GRIDobj('rem_final_2022.tif');
-% REM2.Z(REM2.Z==0)=NaN;
-% 
-% DEM2=resample(DEM2,DEM,'nearest');
-% REM=resample(REM,DEM,'nearest');
-% REM2=resample(REM2,DEM,'nearest');
-% 
-% 
-% S=shaperead("marecchia2008.shp");
-% 
-% S2=shaperead("marecchia2022.shp");
-% 
-% step=5;
-
 DEM=GRIDobj("D:\CARTELLA_IRAN\iran geology\DOTTORATO\VAL_MARECCHIA\DEM_2008_clipped_roi.tif");
 DEM.Z(DEM.Z==0)=NaN;
 DEM2=GRIDobj("D:\CARTELLA_IRAN\iran geology\DOTTORATO\VAL_MARECCHIA\DEM_2022_clipped_roi.tif");

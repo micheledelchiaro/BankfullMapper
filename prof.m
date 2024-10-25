@@ -21,7 +21,7 @@ function [d,z,z_dem,x,y,SW]=prof(DEM,HAR,S,varargin)
 %               shapefile or from an free hand drawn line
 %
 % Optional Input arguments
-%     step      stepping in meters of the profiles
+%     step      stepping in meters between transversal river profiles
 %     width     width in meters of the profiles
 %     smooth    smoothing of the trace from which the profiles are
 %               extracted
