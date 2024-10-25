@@ -1,2 +1,2 @@
 # BankfullMapper
- Semi-automatic toolkit for bankfull geometry extraction and discharge estimationn
+ Semi-automatic toolkit for bankfull geometry extraction and discharge estimation
