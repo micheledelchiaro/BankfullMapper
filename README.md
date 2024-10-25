@@ -9,4 +9,4 @@ In the examples folder, you can find example_code.m and example_code2.m where tw
 
 The data for the examples can be downloaded at the following link: https://drive.google.com/drive/folders/1dM2VZWRmLslaq0dfifNAPaci4E1Bd0Pa?usp=drive_link
 
-To run the tool with your data, just follow the general workflow in the workflow.m script. 
+To run the tool with your data, just follow the general workflow in the WORKFLOW.m script. 
