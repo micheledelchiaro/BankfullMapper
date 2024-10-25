@@ -1,12 +1,12 @@
 # BankfullMapper
- Semi-automatic toolkit for bankfull geometry extraction and discharge estimation
+Semi-automatic toolkit for bankfull geometry extraction and discharge estimation
 
 This toolkit includes Matlab functions to analyze the river bankfull geometry and derive discharge estimate applying Manning's equation. 
 
-In example_code.m is reported the example script for reproducing the results reported in the following manuscript, where all the used functions are described in detail.
+This toolkit requires TopoToolbox, which can be downloaded from https://github.com/wschwanghart/topotoolbox, and needs the same Matlab's built-in packages required for runnning TopoToolbox.
 
-The paper that introduces these algorithms is under review in Water Resources Research, and should be referenced as:
+In the examples folder, you can find example_code.m and example_code2.m where two examples are reported.
 
-Delchiaro, M., Ruscitto, V., Schwanghart, W., Brignone, E., Piacentini, D., and Troiani, F. (submitted). Semi-automated river channel bankfull detection from geomorphic features obtained by high-resolution Digital Terrain Models. Water Resources Research 
+The data for the examples can be downloaded at the following link: https://drive.google.com/drive/folders/1dM2VZWRmLslaq0dfifNAPaci4E1Bd0Pa?usp=drive_link
 
-The toolkit uses TopoToolbox, which can be downloaded from https://github.com/wschwanghart/topotoolbox and requires the same Matlab's built-in packages require for runnning TopoToolbox.
+To run the tool with your data, just follow the general workflow in the workflow.m script. 
