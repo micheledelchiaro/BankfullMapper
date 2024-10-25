@@ -39,7 +39,7 @@ n=0.05;         % n riverbed roughness coefficient in Manning's equation (Mannin
 %% HYDRAULIC DEPTH FUNCTION COMPUTATION
 bank=bankfull(d,z,'max_depth',max_depth);
 
-%% PEAKS EXTRACTION FROM HYDRAULIC DEPTH FUNCTION %     'peak'    string
+%% PEAKS EXTRACTION FROM HYDRAULIC DEPTH FUNCTION 
 % ALL MODE: all the peaks are extracted
 lim_all=detect_peak(bank.h,bank.area,bank.width,bank.elevation,'peak','all');
 % LOWEST MODE: the lowest peaks are extracted
